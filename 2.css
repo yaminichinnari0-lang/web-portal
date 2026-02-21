@@ -68,7 +68,7 @@ nav a:hover{
     }
     .cards{
         display: grid;
-        align-items: center;
+        justify-content: center;
     }
    h2{
         text-align: center;
@@ -196,4 +196,5 @@ html{
     margin-bottom:15px;
     line-height:1.6;
     color:#ccc;
+
 }
