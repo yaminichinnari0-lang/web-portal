@@ -62,7 +62,7 @@ nav a:hover{
     text-align:center;
     transition:0.3s;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     h1{
         text-align: center;
     }
@@ -76,8 +76,7 @@ nav a:hover{
  
 }
 @media(min-width: 768px){
-   .new h1,
-    .new h2{
+   .new h1,h2{
         text-align: left;
     }
     .cards{
@@ -85,8 +84,7 @@ nav a:hover{
     }
 }
 @media(min-width: 992px){
-    .new h1,
-    .new h2{
+    .new h1,h2{
         text-align: left;
     }
     .cards{
@@ -198,5 +196,4 @@ html{
     margin-bottom:15px;
     line-height:1.6;
     color:#ccc;
-
 }
