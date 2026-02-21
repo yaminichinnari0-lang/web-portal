@@ -68,7 +68,7 @@ nav a:hover{
     }
     .cards{
         display: grid;
-        justify-content: center;
+        justify-items: center;
     }
    h2{
         text-align: center;
@@ -198,3 +198,4 @@ html{
     color:#ccc;
 
 }
+
